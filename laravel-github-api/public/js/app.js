@@ -1861,6 +1861,49 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
@@ -37444,24 +37487,144 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _vm._v(
-      "\n   Project Name-" +
-        _vm._s(_vm.projects.full_name) +
-        "\n   Forks-" +
-        _vm._s(_vm.projects.forks_count) +
-        "\n   License Name-" +
-        _vm._s(_vm.projects.license.name) +
-        "\n  Stars count-" +
-        _vm._s(_vm.projects.stargazers_count) +
-        "\n   Organization-" +
-        _vm._s(_vm.projects.organization.login) +
-        "\n   Language-" +
-        _vm._s(_vm.projects.language) +
-        "\n"
+    _c(
+      "div",
+      { staticClass: "flex flex-col  items-center justify-center mt-32" },
+      [
+        _vm._m(0),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "text-xl font-serif \n          max-w-8xl xl:w-2/5 w-full p-6  border boder-gray-500 xl:ml-0 sm:text-center font-italic rounded-md space-y-4"
+          },
+          [
+            _vm._m(1),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "xl:flex xl:flex-row sm:flex sm:flex-col space-x-6 justify-center xl:ml-0 ml-6"
+              },
+              [
+                _c("div", [
+                  _vm._v("Project Name-" + _vm._s(_vm.projects.full_name))
+                ]),
+                _vm._v(" "),
+                _c("div", [
+                  _vm._v("Project Stars-" + _vm._s(_vm.projects.forks_count))
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "xl:flex xl:flex-row sm:flex sm:flex-col space-x-6 justify-center xl:ml-0 ml-6"
+              },
+              [
+                _c("div", [
+                  _vm._v("License Name-" + _vm._s(_vm.projects.license.name))
+                ]),
+                _vm._v(" "),
+                _c("div", [
+                  _vm._v(
+                    " Stars count-" + _vm._s(_vm.projects.stargazers_count)
+                  )
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "xl:flex xl:flex-row sm:flex sm:flex-col space-x-6 justify-center xl:ml-0 ml-6"
+              },
+              [
+                _c("div", [
+                  _vm._v(
+                    "\n                          Organization-" +
+                      _vm._s(_vm.projects.organization.login) +
+                      "\n                      "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", [
+                  _vm._v(
+                    "\n                             Language-" +
+                      _vm._s(_vm.projects.language) +
+                      " \n                      "
+                  )
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "xl:flex xl:flex-row sm:flex sm:flex-col space-x-6 justify-center xl:ml-0 ml-6"
+              },
+              [
+                _c("div", [
+                  _vm._v(
+                    "\n                          First repo commited-" +
+                      _vm._s(_vm.projects.created_at) +
+                      "\n                      "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", [
+                  _vm._v(
+                    "\n                             Homepage-" +
+                      _vm._s(_vm.projects.homepage) +
+                      " \n                      "
+                  )
+                ])
+              ]
+            )
+          ]
+        )
+      ]
     )
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "text-xl font-serif bg-blue-400 max-w-8xl xl:w-2/5 w-full p-6 text-white border boder-gray-500"
+      },
+      [_c("div", { staticClass: "text-center" }, [_vm._v("React Repository")])]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "flex justify-center" }, [
+      _c("img", {
+        staticClass: "h-48",
+        staticStyle: {
+          "-webkit-user-select": "none",
+          margin: "auto",
+          "background-color": "hsl(0, 0%, 90%)",
+          transition: "background-color 300ms"
+        },
+        attrs: { src: "https://avatars.githubusercontent.com/u/69631?v=4" }
+      })
+    ])
+  }
+]
 render._withStripped = true
 
 
